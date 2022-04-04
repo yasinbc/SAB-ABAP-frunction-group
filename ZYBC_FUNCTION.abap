@@ -40,8 +40,8 @@ ENDFUNCTION.
 *&
 *&---------------------------------------------------------------------*
 REPORT ZYBC_FUNCTION.
-
-data: some_text type string value 'Hello CEMOSA!',
+                           "VALUE IS INITIAL,
+data: some_text type string value 'Hello CEMOSA!', "Or VALUE IS INITIAL
       some_result type string.
 
 CALL FUNCTION 'ZYBC_WRITE_TEST'
